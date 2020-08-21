@@ -1,0 +1,24 @@
+@media (max-width: 1200px){
+    .promo, .advantages, .consultation, .carousel, .catalog, .feed {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+@media (max-width: 991px){
+    .promo, .advantages, .consultation, .carousel, .catalog, .feed {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .carousel {
+        .slick-prev, .slick-next  {
+            padding-left: 40px;
+            padding-right: 40px;
+            img {
+                width: 21px;
+                height: 40px;
+            }
+        }
+    }
+}
+
+
